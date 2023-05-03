@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+* body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+* body h1 {
+  padding: 0 30px;
+  font-family: "Racing Sans One";
+  font-weight: bold;
+  color: #FF1801;
+}
+* body #calendar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+* body #calendar .raceInfo {
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+}
+* body #calendar .raceInfo h5 {
+  padding: 10px;
+  margin: 0;
+}
+* body #calendar .raceInfo h2 {
+  margin: 0;
+  padding: 5px 10px;
+}
+* body #calendar .raceInfo h3 {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+@media (max-width: 520px) {
+  #calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
