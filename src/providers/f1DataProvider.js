@@ -1,4 +1,6 @@
-const fetchData = async(uri) => {
+const uri = 'http://ergast.com/api/f1/current.json'
+
+export const fetchData = async() => {
   try {
       const response = await fetch(uri)
       const data = await response.json()
@@ -8,10 +10,3 @@ const fetchData = async(uri) => {
       return null
   }
 }
-
-function handleError(err) {
-  console.log("OH NO!")
-  console.log(err)
-}
-
-export {fetchData, handleError}
