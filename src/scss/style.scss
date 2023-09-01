@@ -5,6 +5,25 @@
         margin: 0;
         padding: 0;
         background-color: black;
+            #navbar {
+                background-color: #FF1801;
+                border-radius: 0 0 10px 10px ;
+                ul {
+                    font-family: 'Racing Sans One';
+                    margin: 0;
+                    padding: 20px;
+                    li {
+                        display: inline;
+                        padding: 10px;
+                        a {
+                            text-decoration: none;
+                            color: #ffffff;
+                            font-size: 25px;
+
+                        }
+                    }
+                }
+            }
             h1 {
                 padding: 0 30px;
                 font-family: 'Racing Sans One';

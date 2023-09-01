@@ -7,6 +7,24 @@
   padding: 0;
   background-color: black;
 }
+* body #navbar {
+  background-color: #FF1801;
+  border-radius: 0 0 10px 10px;
+}
+* body #navbar ul {
+  font-family: "Racing Sans One";
+  margin: 0;
+  padding: 20px;
+}
+* body #navbar ul li {
+  display: inline;
+  padding: 10px;
+}
+* body #navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
 * body h1 {
   padding: 0 30px;
   font-family: "Racing Sans One";
